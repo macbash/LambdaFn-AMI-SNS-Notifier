@@ -25,7 +25,8 @@ Value: arn:aws:sns:us-east-1:0000000000:zook-sns-arn
 
 ### Note:
 
-AWS_AMI_PATH - ssm public parameter for aws ami, EC2_TAG_KEY & EC2_TAG_KEY_VALUE - existing instance tag key and value, SNS_ARN - sns arn with email subscribed one.
+1. Above values are sample
+2. AWS_AMI_PATH - ssm public parameter for aws ami, EC2_TAG_KEY & EC2_TAG_KEY_VALUE - existing instance tag key and value, SNS_ARN - sns arn with email subscribed one.
 
 Author: macbash ( m_az@live.in )
 
