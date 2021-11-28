@@ -1,11 +1,11 @@
 # LambdaFn-AMI-SNS-Notifier
 Lambda function will notify latest AMI using SNS
-Pre-Reqs
---------
+
+## Pre-Reqs
 
 Lambda IAM Role: SSM Parameter Read Access, EC2 Read Access, SNS Access for sending messages
 
-Environment Variables for Lambda like below,
+## Environment Variables for Lambda like below,
 
 Key: AWS_AMI_PATH
 
@@ -23,7 +23,9 @@ Key: SNS_ARN
 
 Value: arn:aws:sns:us-east-1:0000000000:zook-sns-arn
 
-Note: AWS_AMI_PATH - ssm public parameter for aws ami, EC2_TAG_KEY & EC2_TAG_KEY_VALUE - existing instance tag key and value, SNS_ARN - sns arn with email subscribed one.
+### Note:
+
+AWS_AMI_PATH - ssm public parameter for aws ami, EC2_TAG_KEY & EC2_TAG_KEY_VALUE - existing instance tag key and value, SNS_ARN - sns arn with email subscribed one.
 
 Author: macbash ( m_az@live.in )
 
